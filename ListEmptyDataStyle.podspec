@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ListEmptyDataStyle"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "ListEmptyDataStyle 列表视图无数据样式"
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ListEmptyDataStyle.framework/Headers", "*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.resources  = "ListEmptyStyle/*.{bundle}"
+  spec.source_files  = "ListEmptyStyle/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
