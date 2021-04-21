@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   DESC
 
-  spec.homepage     = 'https://github.com/dxsGitHub/ListEmptyDataStyle'
+  spec.homepage     = "https://github.com/dxsGitHub/ListEmptyDataStyle"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
