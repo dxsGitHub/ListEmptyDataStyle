@@ -1,6 +1,0 @@
-framework module ListEmptyDataStyle {
-  umbrella header "ListEmptyDataStyle.h"
-
-  export *
-  module * { export * }
-}
